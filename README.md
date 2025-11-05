@@ -57,7 +57,6 @@ this node **must be launched together** with the main controller.
 
 ## ⚙️ Node Connection Overview
 
-```mermaid
 graph TD;
     A[Gazebo Simulation] -->|/odom| B[pose_tf_broadcaster];
     B -->|TF (map → base_link)| C[ugv_controller];
